@@ -7,8 +7,13 @@ redirect_from: /lang/en/
 
 ## Summary
 
-As a software developer, I want to squash feature branches onto `master` and write
-a standardized commit message while doing so.
+As a software developer, I want to create a readable commit history writing standardized commit messages to make easier and explicit what changes have been applied to a project.
+
+The Conventional Commits specification proposes introducing a standardized lightweight
+convention on top of commit messages.
+This convention dovetails with [SemVer](http://semver.org),
+asking software developers to describe in commit messages, features, fixes, and breaking
+changes that they make.
 
 The commit message should be structured as follows:
 
@@ -64,25 +69,6 @@ see the issue for details on the typos fixed
 
 fixes issue #12
 ```
-
-## Introduction
-
-In software development, it's been my experience that bugs are most often introduced at the boundaries between applications.
-Unit testing works great for testing the interactions that a maintainer knows about, but do a poor job of capturing all the interesting, often unexpected, ways that a community puts a library to use.
-
-Anyone who has upgraded to a new patch version of a dependency, only to watch their
-application start throwing a steady stream of 500 errors, knows how important
-a readable commit history (and [ideally a well maintained CHANGELOG](http://keepachangelog.com/en/0.3.0/)) is to the ensuing
-forensic process.
-
-The Conventional Commits specification proposes introducing a standardized lightweight
-convention on top of commit messages. This convention dovetails with [SemVer](http://semver.org),
-asking software developers to describe in commit messages, features, fixes, and breaking
-changes that they make.
-
-By introducing this convention, we create a common language that makes it easier to
-debug issues across project boundaries.
-
 ## Conventional Commits Specification
 
 The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
