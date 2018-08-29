@@ -8,12 +8,10 @@ redirect_from: /lang/en/
 ## Summary
 
 As a software developer, I want to create a readable commit history writing standardized commit messages to make easier and explicit what changes have been applied to a project.
-
-The Conventional Commits specification proposes introducing a standardized lightweight
-convention on top of commit messages.
+To accomplish it, the Conventional Commits specification proposes introducing a standardized lightweight
+convention on top of commit messages giving to you also the chance to automate processes.
 This convention dovetails with [SemVer](http://semver.org),
-asking software developers to describe in commit messages, features, fixes, and breaking
-changes that they make.
+asking software developers to describe in commit messages, features, fixes, and breaking changes that they make.
 
 The commit message should be structured as follows:
 
